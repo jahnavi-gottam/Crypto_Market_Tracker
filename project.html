@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Market Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="container">
+        <section class="controls">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search By Name or Symbol"
+                aria-label="Search By Name or Symbol" />
+            <button id="sortMarketCapBtn" class="control-btn">Sort By Mkt Cap</button>
+            <button id="sortPercentageBtn" class="control-btn">Sort by percentage</button>
+        </section>
+
+        <div id="statusMessage" class="status-message"></div>
+
+        <div class="table-wrapper">
+            <table id="cryptoTable">
+                <thead class="sr-only">
+                    <tr>
+                        <th>Name</th>
+                        <th>Symbol</th>
+                        <th>Current Price</th>
+                        <th>Total Volume</th>
+                        <th>Percentage Change</th>
+                        <th>Market Cap</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
