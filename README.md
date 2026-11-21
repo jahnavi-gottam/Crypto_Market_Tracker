@@ -4,7 +4,7 @@ A dark-themed cryptocurrency market tracker built with HTML, CSS, and Vanilla Ja
 
 ## Live Demo
 
-[View Live App](https://<jahnavi_gottam>.github.io/<Crypto_Market_Tracker>/)
+[View Live App](https://jahnavi-gottam.github.io/Crypto_Market_Tracker/)
 
 ## Features
 
